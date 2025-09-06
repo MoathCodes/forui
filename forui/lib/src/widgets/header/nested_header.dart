@@ -71,8 +71,8 @@ class _FNestedHeader extends FHeader {
           ? Stack(
               children: [
                 title,
-                Align(alignment: Alignment.centerLeft, child: prefixes),
-                Align(alignment: Alignment.centerRight, child: suffixes),
+                Align(alignment: AlignmentDirectional.centerStart, child: prefixes),
+                Align(alignment: AlignmentDirectional.centerEnd, child: suffixes),
               ],
             )
           : Row(
